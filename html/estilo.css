@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+ 
+}
+fieldset {
+    background-color: bisque;
+    margin-top: 20px;
+    border: 2px solid rgb(194, 158, 158);
+
+}
+legend {
+    background-color: rgb(230, 95, 95);
+    color: yellow;
+    padding: 3px;
+}

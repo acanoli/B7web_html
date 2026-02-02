@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Pacifico&display=swap" rel="stylesheet">
+    <title>AULA HTML</title>
+
+</head>
+
+<body>
+    <form method="post" action="processa.php" enctype="multipart/form-data ">
+        <input type="text" name="country" value="BR" />
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        <label>
+           Primeiro Nome<br />
+            <input type="text" name="nome"  />
+        </label>
+        <br />
+        <label>
+            Sobrenome<br />
+            <input type="text" name="sobrenome"  />
+        </label><br />
+        <label>
+            Foto <br />
+            <input type="file" name="foto" accept="application/pdf" />
+        </label>
+        <br /> 
+            <label>
+            E-mail<br />
+            <input type="text" name="email" pattern="(^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$)" title="endereco de E-mail" />
+        </label>
+        <br />
+        <label>
+            Idade<br />
+            <input type="number" name="idade" min="0" max="120" />
+        </label>
+        <br />
+        <label>
+            Data de nascimento<br />
+            <input type="date" name="data_nascimento" min="2008-01-01"/>
+        </label>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Dados da Empresa</legend>
+        <label>
+            E-mail<br />
+            <input type="email" name="email" />
+        </label>
+        <br />
+        <label>
+            Cargo<br />
+            <input type="text" name="cargo" />
+        </label>
+        </fieldset>
+        <br />
+        <button type="submit">Enviar</button>
+
+    </form>
+    
+
+
+
+
+
+
+
+</body>
+
+</html>
