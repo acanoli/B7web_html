@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+.container{
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: #aadae2;  
+    color: blueviolet;
+} 
+.container strong{
+    color: rgb(241, 13, 62);
+    border: 1px solid black;
+}
