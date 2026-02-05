@@ -1,0 +1,17 @@
+html{
+    font-size: 20px;
+}
+body{
+    margin: 0;
+}
+.box{
+    width: 50%;
+    height: 200px;
+    font-size: 20px;
+    background-color: aquamarine;
+}
+.inner-box{
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(223, 143, 143);
+}

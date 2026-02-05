@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box{
+     background-color: #801e1e;
+     width: 300ex;
+ 
+}
+.inner-box{
+  width: 16ch;
+    background-color: #1f94e2;  
+    color: #b6c7ce;
+}
