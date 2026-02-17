@@ -9,3 +9,9 @@ body{
     background-color: #8b8888;
     
 }
+.box{
+    width: 90px;
+    height: 20px;
+    background-color: #8b8888;
+    margin: 10px;
+}

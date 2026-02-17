@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  background-color: rgb(182, 188, 188);
+}   
+form{
+    width: 300px;
+    height: 230px;
+    margin: 0px auto;
+    background-color: #515354;
+    display: flex;
+    flex-direction:column;
+    gap: 3px;  
+    align-content: center; 
+    padding: 20px;
+    margin-top: 300px;
+    color: rgb(87, 222, 91);
+    border-radius: 20px;
+    text-align: center;   
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;  
+    border-radius: 30px;
+    border: none;
+}
+
+button{
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3c8ee6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
