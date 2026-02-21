@@ -1,0 +1,11 @@
+<body{
+    margin: 0;
+}
+
+.degrade{
+    width: 500px;
+    height: 200px;
+    background: #0000ff;
+    background: linear-gradient(to bottom right, #ff0000, #0000ff, #c74579);
+    
+}

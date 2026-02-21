@@ -1,0 +1,36 @@
+@keyframes exemplo {
+    0%{
+        background-color: red;
+        transform: rotate(0deg);
+    }
+    50%{
+        background-color: blue;
+        transform: rotate(180deg);
+    }
+    100%{
+        background-color: red;
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+body{
+    margin: 150px;
+    padding-left: 150px;
+}
+.exemplo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: exemplo 5s linear infinite;    
+}
+.PS4{
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    color: rgb(49, 203, 41);
+    font-size: 70px;
+      
+}
